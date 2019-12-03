@@ -1,0 +1,8 @@
+version: "2"
+services:
+  timeservice:
+    image: timeservice:latest
+    ports:
+      - 80:8080
+    container_name: timeservice
+    restart: always
